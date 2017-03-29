@@ -3971,3 +3971,2107 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1490629069.69
     'REQUEST_TIME' => 1490629069
 ]
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 10:02:22 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 10:02:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1808'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52636'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490752942.2325
+    'REQUEST_TIME' => 1490752942
+]
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'country'
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: country/index
+2017-03-29 10:02:56 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\CountryController::actionIndex()
+2017-03-29 10:02:56 [127.0.0.1][-][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:02:56 [127.0.0.1][-][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=localhost;dbname=yii
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:02:57 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:02:57 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:02:58 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:02:58 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT * FROM `country` LIMIT 20
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:02:58 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:02:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1808'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=country'
+    'QUERY_STRING' => 'r=country'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52657'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490752976.8955
+    'REQUEST_TIME' => 1490752976
+]
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'country'
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: country/index
+2017-03-29 10:03:29 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\CountryController::actionIndex()
+2017-03-29 10:03:29 [127.0.0.1][-][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:03:29 [127.0.0.1][-][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=localhost;dbname=yii
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:03:30 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:03:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:30 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:30 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT * FROM `country` LIMIT 20
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1808'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=country'
+    'QUERY_STRING' => 'r=country'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52687'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490753009.3195
+    'REQUEST_TIME' => 1490753009
+]
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'country'
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: country/index
+2017-03-29 10:03:35 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\CountryController::actionIndex()
+2017-03-29 10:03:35 [127.0.0.1][-][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:03:35 [127.0.0.1][-][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=localhost;dbname=yii
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:03:36 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 10:03:36 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:36 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:36 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT * FROM `country` LIMIT 20
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:36 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 10:03:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1808'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=country'
+    'QUERY_STRING' => 'r=country'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52690'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490753015.7965
+    'REQUEST_TIME' => 1490753015
+]
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:09:18 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:09:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'g' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?g=gii'
+    'QUERY_STRING' => 'g=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56048'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782158.181
+    'REQUEST_TIME' => 1490782158
+]
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:09:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:09:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'g' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?g=gii'
+    'QUERY_STRING' => 'g=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56060'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782170.288
+    'REQUEST_TIME' => 1490782170
+]
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:09:37 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:09:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'g' => 'yii'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?g=yii'
+    'QUERY_STRING' => 'g=yii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56066'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782177.67
+    'REQUEST_TIME' => 1490782177
+]
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii'
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/index
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionIndex()
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\index.php
+2017-03-29 18:10:01 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\main.php
+2017-03-29 18:10:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56157'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782201.174
+    'REQUEST_TIME' => 1490782201
+]
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view.php
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\extension/form.php
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\generator.php
+2017-03-29 18:10:12 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor/yiisoft/yii2-gii/views/layouts/main.php
+2017-03-29 18:10:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'extension'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=extension'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=extension'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56167'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782212.51
+    'REQUEST_TIME' => 1490782212
+]
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view.php
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\crud/form.php
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\generator.php
+2017-03-29 18:10:30 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor/yiisoft/yii2-gii/views/layouts/main.php
+2017-03-29 18:10:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56191'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii%2Fdefault%2Fview&id=extension'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782229.989
+    'REQUEST_TIME' => 1490782229
+]
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view.php
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\controller/form.php
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\generator.php
+2017-03-29 18:10:31 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor/yiisoft/yii2-gii/views/layouts/main.php
+2017-03-29 18:10:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'controller'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=controller'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=controller'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56192'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782231.415
+    'REQUEST_TIME' => 1490782231
+]
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:23:13 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:23:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61793'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490782992.993
+    'REQUEST_TIME' => 1490782992
+]
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:23:19 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:23:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\other\\blog\\trunk\\yii\\r=say'
+    'PATH_INFO' => '/r=say'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/r=say'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61794'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/r=say'
+    'REQUEST_TIME_FLOAT' => 1490782999.38
+    'REQUEST_TIME' => 1490782999
+]
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'say'
+2017-03-29 18:23:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "say".' in D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('say', Array)
+#1 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\other\blog\trunk\yii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\other\blog\trunk\yii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/error
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\error.php
+2017-03-29 18:23:27 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+2017-03-29 18:23:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'say'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=say'
+    'QUERY_STRING' => 'r=say'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61802'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783007.073
+    'REQUEST_TIME' => 1490783007
+]
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'say'
+2017-03-29 18:23:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "say".' in D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('say', Array)
+#1 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\other\blog\trunk\yii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\other\blog\trunk\yii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/error
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\error.php
+2017-03-29 18:23:39 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+2017-03-29 18:23:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'say'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=say'
+    'QUERY_STRING' => 'r=say'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61813'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783019.17
+    'REQUEST_TIME' => 1490783019
+]
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:23:48 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:23:48 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61815'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783028.69
+    'REQUEST_TIME' => 1490783028
+]
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:24:00 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:23:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'g' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?g=gii'
+    'QUERY_STRING' => 'g=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61917'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783039.978
+    'REQUEST_TIME' => 1490783039
+]
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii'
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/index
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionIndex()
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\index.php
+2017-03-29 18:24:04 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\main.php
+2017-03-29 18:24:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61917'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783044.59
+    'REQUEST_TIME' => 1490783044
+]
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'country'
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: country/index
+2017-03-29 18:24:09 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\CountryController::actionIndex()
+2017-03-29 18:24:09 [127.0.0.1][-][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 18:24:09 [127.0.0.1][-][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=localhost;dbname=yii
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 18:24:10 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'
+    in D:\phpstudy\WWW\other\blog\trunk\yii\models\CountrySearch.php:54
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:39
+2017-03-29 18:24:10 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 18:24:10 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM `country`
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 18:24:10 [127.0.0.1][-][-][info][yii\db\Command::query] SELECT * FROM `country` LIMIT 20
+    in D:\phpstudy\WWW\other\blog\trunk\yii\views\country\index.php:33
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 18:24:10 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\CountryController.php:44
+2017-03-29 18:24:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=country'
+    'QUERY_STRING' => 'r=country'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61917'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783049.324
+    'REQUEST_TIME' => 1490783049
+]
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'index/say'
+2017-03-29 18:24:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index/say".' in D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('index/say', Array)
+#1 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\other\blog\trunk\yii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\other\blog\trunk\yii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/error
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\error.php
+2017-03-29 18:24:15 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+2017-03-29 18:24:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/say'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=index/say'
+    'QUERY_STRING' => 'r=index/say'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61917'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783055.693
+    'REQUEST_TIME' => 1490783055
+]
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/say'
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/say
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionSay()
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\say.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:130
+2017-03-29 18:24:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:130
+2017-03-29 18:24:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=site/say'
+    'QUERY_STRING' => 'r=site/say'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61979'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783068.14
+    'REQUEST_TIME' => 1490783068
+]
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/say'
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/say
+2017-03-29 18:24:33 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionSay()
+2017-03-29 18:24:33 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class yii\web\Application could not be converted to string' in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:131
+Stack trace:
+#0 D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php(131): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'D:\\phpstudy\\WWW...', 131, Array)
+#1 [internal function]: app\controllers\SiteController->actionSay('hello')
+#2 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('say', Array)
+#5 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say', Array)
+#6 D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpstudy\WWW\other\blog\trunk\yii\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-29 18:24:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=site/say'
+    'QUERY_STRING' => 'r=site/say'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61979'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783073.73
+    'REQUEST_TIME' => 1490783073
+]
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii'
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/index
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionIndex()
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\index.php
+2017-03-29 18:25:41 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\main.php
+2017-03-29 18:25:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62116'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783141.101
+    'REQUEST_TIME' => 1490783141
+]
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view.php
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/form.php
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\generator.php
+2017-03-29 18:25:43 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor/yiisoft/yii2-gii/views/layouts/main.php
+2017-03-29 18:25:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'module'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=module'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62118'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783143.355
+    'REQUEST_TIME' => 1490783143
+]
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/module.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/controller.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/view.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/form.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view/files.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\generator.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor/yiisoft/yii2-gii/views/layouts/main.php
+2017-03-29 18:27:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'module'
+]
+
+$_POST = [
+    '_csrf' => 'c1dtSWxoMS0bLiQfAzsGXwZuPwwNBVBnODQkHBY5eEYeAAsaAzd5GQ=='
+    'Generator' => [
+        'moduleClass' => 'app\\modules\\admin\\Module'
+        'moduleID' => 'admin'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=module'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62552'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii888.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '195'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783275.561
+    'REQUEST_TIME' => 1490783275
+]
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/module.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/controller.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/view.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/form.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view/results.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\generator.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor/yiisoft/yii2-gii/views/layouts/main.php
+2017-03-29 18:28:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'module'
+]
+
+$_POST = [
+    '_csrf' => 'V3pKZm1PcEE/AwMwAhxHMyJDGCMMIhELHBkDMxceOSo6LSw1AhA4dQ=='
+    'Generator' => [
+        'moduleClass' => 'app\\modules\\admin\\Module'
+        'moduleID' => 'admin'
+        'template' => 'default'
+    ]
+    'answers' => [
+        '6ebcd44d6728d7b4ab9b0afc7d0a6661' => '1'
+        'e20de3d632f6b05a4539a7348ff8214e' => '1'
+        'e456af90bc759a0dca2a388c5b134ce6' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=module'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62619'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii888.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '342'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783308.903
+    'REQUEST_TIME' => 1490783308
+]
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/module.php
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/controller.php
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/default/view.php
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view.php
+2017-03-29 18:29:01 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\generators\module/form.php
+2017-03-29 18:29:02 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\default\view/results.php
+2017-03-29 18:29:02 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor\yiisoft\yii2-gii\views\layouts\generator.php
+2017-03-29 18:29:02 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\vendor/yiisoft/yii2-gii/views/layouts/main.php
+2017-03-29 18:29:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'module'
+]
+
+$_POST = [
+    '_csrf' => 'V3pKZm1PcEE/AwMwAhxHMyJDGCMMIhELHBkDMxceOSo6LSw1AhA4dQ=='
+    'Generator' => [
+        'moduleClass' => 'app\\modules\\admin\\Module'
+        'moduleID' => 'admin'
+        'template' => 'default'
+    ]
+    'answers' => [
+        '6ebcd44d6728d7b4ab9b0afc7d0a6661' => '1'
+        'e20de3d632f6b05a4539a7348ff8214e' => '1'
+        'e456af90bc759a0dca2a388c5b134ce6' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=module'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62714'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii888.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '342'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783341.948
+    'REQUEST_TIME' => 1490783341
+]
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'admin'
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: admin
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: admin/default/index
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\modules\admin\controllers\DefaultController::actionIndex()
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\modules\admin\views\default\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\modules\admin\controllers\DefaultController.php:18
+2017-03-29 18:29:04 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\modules\admin\controllers\DefaultController.php:18
+2017-03-29 18:29:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=admin'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62714'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.yii888.com/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783344.56
+    'REQUEST_TIME' => 1490783344
+]
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site'
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/index
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionIndex()
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\site\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:29:54 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\controllers\SiteController.php:64
+2017-03-29 18:29:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=site'
+    'QUERY_STRING' => 'r=site'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62803'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783394.901
+    'REQUEST_TIME' => 1490783394
+]
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'admin'
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: admin
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\Controller::runAction] Route to run: admin/default/index
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\modules\admin\controllers\DefaultController::actionIndex()
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\modules\admin\views\default\index.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\modules\admin\controllers\DefaultController.php:18
+2017-03-29 18:33:13 [127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\phpstudy\WWW\other\blog\trunk\yii\views\layouts\main.php
+    in D:\phpstudy\WWW\other\blog\trunk\yii\modules\admin\controllers\DefaultController.php:18
+2017-03-29 18:33:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '_csrf' => '5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpstudy\\MySQL\\bin;D:\\phpstudy\\php\\php-5.6.27-nts;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpstudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?r=admin'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63464'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/other/blog/trunk/yii/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/other/blog/trunk/yii'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii888.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=5656c063c05d582cda00329bbb30a4c97fe3067e9672a8cf019be3d538276bc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hyIVoS7ru9REamaJKcIUzQIkmWfSo_H4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii888.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490783593.925
+    'REQUEST_TIME' => 1490783593
+]
